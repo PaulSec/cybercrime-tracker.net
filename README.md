@@ -16,6 +16,32 @@ Install the dependencies.
 pip install -r requirements.txt
 ```
 
+
+### Install with pip (from the Github repository): 
+
+```shell
+➜  ~ pip install https://github.com/PaulSec/cybercrime-tracker.net/archive/master.zip --user
+Collecting https://github.com/PaulSec/cybercrime-tracker.net/archive/master.zip
+  Downloading https://github.com/PaulSec/cybercrime-tracker.net/archive/master.zip
+Installing collected packages: cybercrimetracker
+  Running setup.py install for cybercrimetracker ... done
+Successfully installed cybercrimetracker-0.1
+```
+
+### Install with pip (from Pypi repository)
+
+
+```shell
+➜  ~ pip install cybercrimetracker --user
+Collecting cybercrimetracker
+  Using cached cybercrimetracker-0.1.tar.gz
+Installing collected packages: cybercrimetracker
+  Running setup.py install for cybercrimetracker ... done
+Successfully installed cybercrimetracker-0.1
+```
+
+
+
 Then, you can start interacting with cybercrime-tracker this way: 
 
 ```python
